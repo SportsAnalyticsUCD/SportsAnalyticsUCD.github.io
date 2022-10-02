@@ -334,6 +334,7 @@ p{
     .row{
         flex-direction: col;
     }
+    
 }
 
 .Divisions{
@@ -468,11 +469,12 @@ h3{
 }
 
 .Calendar{
-    padding: 0px 21%;
+    margin-left: 20%;
 }
 .Calendar h2{
-    text-align: center;
+    margin-left: 32%;
 }
+
 
 .content p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
