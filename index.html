@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with=device-width, initial-scale = 1.0">
+    <title>Sports Analytics at UC Davis</title>
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/b48e6a9589.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class = "header">
+    <nav>
+        <a href = "index.html"><img src = "images/club-logo.png"></a>
+            <div class = "nav-links" id = "navLinks">
+                <i class="fa fa-times" onclick = "hideMenu()"></i>
+                <ul>
+                    <li><a href = "index.html">HOME</a></li>
+                    <li><a href = "about.html">ABOUT</a></li>
+                    <li><a href = "projects.html">PROJECTS</a></li>
+                </ul>
+    
+            </div>
+            <i class="fa fa-bars" onclick = "showMenu()"></i>
+    </nav>
+
+<div class = "text-box">
+    <h1>Sports Analytics Club at UC Davis</h1>
+    <p>Welcome to our page! <br>Currently under development, we are
+        working to create a club that implements our passion for sports along with
+        our knowledge of data analysis!
+    </p>
+    <a href = "https://docs.google.com/forms/d/1H2_KYoTaiDtscTXeflcBMMD7CZeA6qq3obYsT9FIlVE" class="hero-btn">Visit us to know more!</a>
+</div>
+
+</section>
+
+<!-------- About Us ------>
+<section class = "WhatWeDo">
+    <h1>Teams</h1>
+    <p>There are 3 divisions that one may be apart of. Projects. Journalism.
+        Business. Our mission is simple! To create dynamic research projects
+        that see our favorite teams/players in new ways. Using real data, we
+        aim to connect the CS and sports world in creative ways. </p>
+    <div class = "row">
+        <div class = "col">
+            <h3> Projects </h3>
+            <p>Our projects section will focus on creating numerous models
+                generally focused on the NFL and NBA. This section will be run
+                by the Department's Project Head, Amar Singh.</p>
+        </div>
+        <div class = "col">
+            <h3> Journalism </h3>
+            <p>The Journalism department will be focused mainly upon the 
+                models that we create. Incorporating their own beliefs within the 
+                sports world combined with the data will help provide a unique 
+                perspective.
+            </p>
+        </div>
+        <div class = "col">
+            <h3> Business </h3>
+            <p> The Business team will primarily focus on gathering funds,
+                managing the social media presence, and running events for
+                the club. Eventually we will look to network and consult for 
+                teams in the future. </p>
+        </div>
+    </div>
+
+</section>
+<!----- Our Divisions ----->
+    <section class = "Calendar">
+        <h2><br>Event Calendar<br><br></h2>
+        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%234285F4&ctz=America%2FLos_Angeles&title=Events%20Calendar%20for%20Sports%20Analytics%20Club&src=c3BvcnRzYW5hbHl0aWNzdWNkQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" position = "center"; style="border:solid 1px #777" width="1000" height="600" frameborder="0" scrolling="no"></iframe>
+        
+    </section>
+<!----
+    <section class = "Divisions">
+        <h1>Our Divisions</h1>
+        <p>Click on each one below to learn more about the area!</p>
+
+        <div class = "row">
+            <div class = "div-col">
+                <a href = "projects.html"><img src = "images/Bryant.jpeg"></a>
+                <div class = "layer">
+                    <h3> PROJECTS </h3>
+                </div>
+            </div>
+            <div class = "div-col1">
+                <a href = "journal.html"><img src = "images/bro.png"></a>
+                <div class = "layer">
+                    <h3> JOURNALISM </h3>
+                </div>
+            </div>
+            <div class = "div-col1">
+                <a href = "contact.html"><img src = "images/social.png"></a>
+                <div class = "layer">
+                    <h3> BUSINESS </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+---->
+
+
+
+
+<!------JavaScript for Toggle Menu -------->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+<!-- --- Footer ----->
+<br>
+<br>
+<section class = "footer">
+    <section class = "mbmb">
+    <h4> Contact Us </h4>
+    <p>
+        Visit us below on our social medias!
+    </p>
+    <div class = "icons">
+        <a href = "https://www.instagram.com/sacucd/"><i class="fa-brands fa-square-instagram"></i></a>
+        <a href = "https://www.facebook.com/groups/602671504788260/"><i class="fa-brands fa-square-facebook"></i></a>
+    </div>
+    <p>Made proudly by UCD.SAC with <i class="fa-solid fa-heart red-color"></i></p>
+   
+</section>
+</section>
+</body>
+</html>
