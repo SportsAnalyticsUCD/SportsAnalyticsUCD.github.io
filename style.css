@@ -470,6 +470,8 @@ h3{
 
 .Calendar{
     margin-left: 20%;
+    height:auto;
+    width: fit-content;
 }
 .Calendar h2{
     margin-left: 32%;
