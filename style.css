@@ -193,7 +193,7 @@ p{
     content:'';
     position:absolute;
     height:162px;
-    bottom:-80px;
+    bottom:-100px;
     right:0;
     left:0;
     background: linear-gradient(to bottom,rgb(39, 90, 39), #09042A);
